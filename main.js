@@ -3,8 +3,9 @@ function rockPaperScissor(player1, player2) {
 
   if (player1 == player2) {
     result = `Draw!`;
-  } else if (player1 == "scissor" && player2 == "paper") { //semangat
->>>>>>> a9527c1 (Update file untuk setup project)
+  } else if (player1 == "scissor" && player2 == "paper") {
+    //semangat
+
     result = `Player 1 Won!`;
   } else if (player1 == "paper" && player2 == "rock") {
     result = `Player 1 Won!`;
